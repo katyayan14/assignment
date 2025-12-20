@@ -1,13 +1,7 @@
-version: '3.8'
 services:
-  jenkins:
-    image: jenkins/jenkins:lts
-    container_name: jenkins-devsecops
-    user: root
+  chatbot:
+    build: .
+    container_name: chatbot-app
     ports:
-      - "8080:8080"
-    volumes:
-      - ./jenkins_home:/var/jenkins_home
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /home/ubuntu/assignment:/home/ubuntu/assignment
-    restart: unless-stopped
+      - "3030:80"
+    restart: always
