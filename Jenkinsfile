@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
-                sh 'chmod -R 777 .'
+                // Removed the chmod line that was causing the permission error
             }
         }
         stage('Infrastructure Security Scan') {
