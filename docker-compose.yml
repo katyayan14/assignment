@@ -1,0 +1,5 @@
+services:
+  chatbot-app:
+    build: .
+    ports:
+      - "8080:80" # Maps host 8080 to container 4173
