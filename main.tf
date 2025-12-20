@@ -14,7 +14,7 @@ resource "aws_subnet" "simple_subnet" {
 
 resource "aws_security_group" "vulnerable_sg" {
   vpc_id      = aws_vpc.simple_vpc.id
-  description = "Secure SG for Chatbot"
+  description = "Hardened SG for Chatbot"
 
   ingress {
     description = "Allow SSH from internal"
@@ -25,11 +25,11 @@ resource "aws_security_group" "vulnerable_sg" {
   }
 
   egress {
-    description = "Allow HTTPS out"
+    description = "Allow HTTPS outbound for updates"
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["0.0.0.0/0"] 
   }
 }
 
