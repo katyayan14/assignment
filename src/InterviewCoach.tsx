@@ -47,7 +47,7 @@ const colorClasses: { [key: string]: { border: string, bg: string, shadow: strin
 };
 
 export default function InterviewCoach({ onExit }: { onExit: () => void }) {
-    const [apiKey] = useState('AIzaSyDJepzpR7RP_xKSfM2QlOHa4-NRFkMtPl4');
+    const [apiKey] = useState('');
     const [messages, setMessages] = useState<ChatMessage[]>([]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
