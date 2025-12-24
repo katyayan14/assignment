@@ -61,4 +61,7 @@ Phase	AI Prompt/Query	AI-Recommended Solution & Impact
 4. Infrastructure Fix	"Help me fix the critical error by restricting the egress rule in my main.tf."	Code Hardening: AI provided the refactored Terraform code to lock down network traffic and enable encryption, resulting in a 0-vulnerability report.
 5. Resource Fixing	"Jenkins build is failing with 'No space left on device' on my AWS t2.micro instance."	Environment Optimization: AI provided the docker system prune commands to manage disk space, ensuring the pipeline could run on limited hardware.
 6. App Development	"Generate a React Chat UI and explain how to integrate it with an AI API."	AI-Driven Dev: AI generated the frontend code and the logic for the ChatBot interface, demonstrating modern prompt-engineering techniques.
+LINKS:-
+1)	Github link : - https://github.com/katyayan14/assignment
+2)	Application link : - http://98.93.224.219:3030
 
