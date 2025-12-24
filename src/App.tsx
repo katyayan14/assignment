@@ -12,7 +12,7 @@ interface Message {
 
 function App() {
   // PASTE YOUR GEMINI API KEY HERE. This key is for all assistants EXCEPT the Interview Coach.
-  const [apiKey] = useState('AIzaSyDJepzpR7RP_xKSfM2QlOHa4-NRFkMtPl4');
+  const [apiKey] = useState('');
 
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
