@@ -1,5 +1,10 @@
 1) Project Overview
 This project demonstrates a Secured CI/CD Pipeline. The goal was to take a ChatBot application and deploy it to the cloud (AWS) while ensuring that the infrastructure is safe from hackers.
+The chatbot application is not an ordinary chatbot. It has different personas and with the help of prompt engineering we have achieved following :- 
+•	The chatbot dosen’t reply with long detailed answers until asked.
+•	It replies in bullet points .
+•	Adds emoji to make it look more visually appealing.
+•	Backed with gemini api allows multilingual support as well.
 Instead of just "running the code," we implemented "Shift-Left Security," which means we checked for security flaws before the application ever went live.
 
 2)Architecture
@@ -29,16 +34,23 @@ Instead of just "running the code," we implemented "Shift-Left Security," which 
 4) Before & After: The Security Flaws
 BEFORE :-
  
+<img width="1365" height="720" alt="J1" src="https://github.com/user-attachments/assets/635fd5b4-a2b0-4ce5-9b38-3f1847a7a84d" />
 
 
- 
+
+
+ <img width="1365" height="697" alt="J4" src="https://github.com/user-attachments/assets/37899ac7-cee1-4fc0-a883-57f4bd5af5c1" />
+
 
 
 
 AFTER : - 
+
+
+ <img width="1365" height="640" alt="J2" src="https://github.com/user-attachments/assets/0b48fdba-7311-43c6-9ecc-e822f4ea3817" />
+
  
-
-
+<img width="1365" height="720" alt="J3" src="https://github.com/user-attachments/assets/f83fa2e9-1b23-4d41-97fb-ec783b41aef8" />
  
 
 5) AI Usage Log
